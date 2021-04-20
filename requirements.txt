@@ -1,0 +1,4 @@
+pandas==1.2.4
+lupa==1.9
+dateparser==1.0.0
+pyinstaller==4.3

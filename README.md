@@ -11,3 +11,11 @@
 ```./epgp_backup.exe "Traitors to humanity" ```
 
 Скачать .exe файл можно во вкладке "Releases"
+
+# Компиляция на **Windows**
+
+```bash
+python3.exe -m pip install -r requirements.txt
+
+pyinstaller.exe epgp_backup.py --onefile -y
+```
